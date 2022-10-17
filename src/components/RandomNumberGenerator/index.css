@@ -1,0 +1,73 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/random-no-generator-bg.png');
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-size: cover;
+}
+
+.card-container {
+  background-color: #ffffff;
+  box-shadow: 4px 4px 4px 4px #eaebed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-color: #e4ebf3;
+  border-radius: 8px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.heading {
+  color: #0b69ff;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: 'Roboto';
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 32px;
+    font-weight: 800;
+  }
+}
+
+.content {
+  color: #333333;
+  font-size: 18px;
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .content {
+    font-size: 24px;
+  }
+}
+
+.button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-size: 12px;
+  font-family: 'Roboto';
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.random-number {
+  color: #0b69ff;
+  font-size: 24px;
+}
